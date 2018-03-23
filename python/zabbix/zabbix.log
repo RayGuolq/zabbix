@@ -1,0 +1,286 @@
+2016-10-25 17:52:45,319, 11740, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 17:52:45,319, 11740, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-10-25 17:55:54,452, 11948, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 17:55:54,453, 11948, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-10-25 17:57:00,068, 12025, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 17:57:00,069, 12025, ERROR, controller.py:get_zabbix_controller:38, Initialize zabbix controller failed: global name 'load_setup' is not defined
+2016-10-25 18:02:47,186, 12442, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:02:47,187, 12442, ERROR, controller.py:get_zabbix_controller:38, Initialize zabbix controller failed: global name 'load_setup' is not defined
+2016-10-25 18:03:56,936, 12521, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:03:56,937, 12521, ERROR, controller.py:get_zabbix_controller:38, Initialize zabbix controller failed: global name 'null' is not defined
+2016-10-25 18:05:10,658, 12605, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:08:32,431, 12847, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:08:32,432, 12847, ERROR, controller.py:get_zabbix_controller:38, Initialize zabbix controller failed: global name 'null' is not defined
+2016-10-25 18:09:56,772, 12941, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:10:39,496, 12992, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:10:41,957, 12992, ERROR, controller.py:get_zabbix_controller:38, Initialize zabbix controller failed: global name 'rep' is not defined
+2016-10-25 18:12:05,035, 13083, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:12:07,108, 13083, ERROR, controller.py:get_auth:70, zabbix get auth info failure: code(-32602), reason: Invalid params. Login name or password is incorrect.
+2016-10-25 18:12:07,109, 13083, ERROR, controller.py:get_zabbix_controller:38, Initialize zabbix controller failed: Zabbix failure: Invalid params. Login name or password is incorrect.
+2016-10-25 18:12:35,516, 13116, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:15:14,973, 13116, ERROR, controller.py:get_auth:77, zabbix get auth info failure: code(-32602), reason: Invalid params. Login name or password is incorrect.
+2016-10-25 18:15:14,975, 13116, ERROR, controller.py:get_zabbix_controller:38, Initialize zabbix controller failed: Zabbix failure: Invalid params. Login name or password is incorrect.
+2016-10-25 18:15:35,121, 13327, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:15:36,419, 13327, ERROR, controller.py:get_zabbix_controller:38, Initialize zabbix controller failed: list index out of range
+2016-10-25 18:16:06,676, 13362, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:17:53,613, 13362, ERROR, controller.py:get_zabbix_controller:38, Initialize zabbix controller failed: list index out of range
+2016-10-25 18:18:25,680, 13514, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:22:55,833, 13816, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:24:57,963, 13816, ERROR, controller.py:get_zabbix_controller:38, Initialize zabbix controller failed: list index out of range
+2016-10-25 18:25:06,969, 13966, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-10-25 18:25:07,465, 13966, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-10-27 03:32:23,721, 16321, DEBUG, controller.py:get_zabbix_controller:30, Get zabbix controller
+2016-10-27 03:32:23,845, 16321, DEBUG, controller.py:get_zabbix_controller:40, Zabbix controller successfully get
+2016-10-27 20:33:23,122, 6899, DEBUG, controller.py:get_zabbix_controller:28, Get zabbix controller
+2016-10-27 20:33:23,290, 6899, DEBUG, controller.py:get_zabbix_controller:38, Zabbix controller successfully get
+2016-10-27 20:33:51,193, 6942, DEBUG, controller.py:get_zabbix_controller:28, Get zabbix controller
+2016-10-27 20:33:51,333, 6942, DEBUG, controller.py:get_zabbix_controller:38, Zabbix controller successfully get
+2016-10-27 20:38:49,034, 7413, DEBUG, controller.py:get_zabbix_controller:28, Get zabbix controller
+2016-10-27 20:38:49,216, 7413, DEBUG, controller.py:get_zabbix_controller:38, Zabbix controller successfully get
+2016-11-01 10:38:42,653, 10434, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 10:38:42,982, 10434, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 11:26:05,912, 13268, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 11:26:06,111, 13268, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 11:26:06,473, 13268, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 11:26:06,478, 13268, INFO, controller.py:device_first_setup:678, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 11:26:06,643, 13268, INFO, controller.py:device_first_setup:689, Get user info by name[dealer].
+2016-11-01 11:26:06,775, 13268, ERROR, controller.py:device_first_setup:726, zabbix device first setup failure: %d format: a number is required, not unicode
+2016-11-01 11:33:01,390, 13723, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 11:33:01,570, 13723, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 11:33:01,935, 13723, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 11:33:01,939, 13723, INFO, controller.py:device_first_setup:678, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 11:33:02,065, 13723, INFO, controller.py:device_first_setup:689, Get user info by name[dealer].
+2016-11-01 11:33:02,189, 13723, INFO, controller.py:device_first_setup:693, Update user medias by user_id[8].
+2016-11-01 11:33:02,342, 13723, INFO, controller.py:device_first_setup:702, Get actions by user_id[8].
+2016-11-01 11:33:02,530, 13723, INFO, controller.py:device_first_setup:716, Update action, action name[dealer`s device occur tds exception action].
+2016-11-01 11:33:02,683, 13723, INFO, controller.py:device_first_setup:716, Update action, action name[dealer`s device occur running status exception action].
+2016-11-01 11:33:02,879, 13723, INFO, controller.py:device_first_setup:716, Update action, action name[dealer`s device occur water purified value exception action].
+2016-11-01 11:33:03,027, 13723, INFO, controller.py:device_first_setup:716, Update action, action name[dealer`s device occur filter1 used exception action].
+2016-11-01 11:33:03,182, 13723, INFO, controller.py:device_first_setup:716, Update action, action name[dealer`s device occur filter2 used exception action].
+2016-11-01 11:33:03,323, 13723, INFO, controller.py:device_first_setup:716, Update action, action name[dealer`s device occur filter3 used exception action].
+2016-11-01 11:33:03,541, 13723, INFO, controller.py:device_first_setup:716, Update action, action name[dealer`s device occur filter4 used exception action].
+2016-11-01 11:33:03,688, 13723, INFO, controller.py:device_first_setup:716, Update action, action name[dealer`s device occur filter5 used exception action].
+2016-11-01 11:33:03,831, 13723, INFO, controller.py:device_first_setup:716, Update action, action name[dealer`s device occur cold water temperature exception action].
+2016-11-01 11:33:03,979, 13723, INFO, controller.py:device_first_setup:716, Update action, action name[dealer`s device occur hot water temperature exception action].
+2016-11-01 12:31:02,012, 16556, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 12:31:02,186, 16556, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 12:31:02,583, 16556, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 12:31:02,587, 16556, INFO, controller.py:device_first_setup:677, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 12:31:02,717, 16556, ERROR, controller.py:device_first_setup:681, zabbix device first setup failure: host[10116] already existing.
+2016-11-01 12:31:41,871, 16586, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 12:31:42,006, 16586, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 12:31:42,361, 16586, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 12:31:42,364, 16586, INFO, controller.py:device_first_setup:677, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 12:31:42,488, 16586, ERROR, controller.py:device_first_setup:681, zabbix device first setup failure: host[DID-20161010010010488a8f7f] already existing.
+2016-11-01 12:32:43,641, 16634, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 12:32:43,774, 16634, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 12:32:44,139, 16634, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 12:32:44,142, 16634, INFO, controller.py:device_first_setup:677, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 12:32:44,633, 16634, INFO, controller.py:device_first_setup:688, Get user info by name[dealer].
+2016-11-01 12:32:44,751, 16634, INFO, controller.py:device_first_setup:692, Update user medias by user_id[8].
+2016-11-01 12:32:44,899, 16634, INFO, controller.py:device_first_setup:701, Get actions by user_id[8].
+2016-11-01 12:32:45,035, 16634, ERROR, controller.py:device_first_setup:725, zabbix device first setup failure: not enough arguments for format string
+2016-11-01 12:35:58,683, 16939, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 12:35:58,812, 16939, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 12:35:59,192, 16939, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 12:35:59,196, 16939, INFO, controller.py:device_first_setup:677, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 12:35:59,323, 16939, ERROR, controller.py:device_first_setup:681, zabbix device first setup failure: host[DID-20161010010010488a8f7f] already existing.
+2016-11-01 12:38:14,780, 17079, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 12:38:14,919, 17079, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 12:38:15,277, 17079, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 12:38:15,281, 17079, INFO, controller.py:device_first_setup:677, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 12:38:15,408, 17079, INFO, controller.py:device_first_setup:684, Create host[DID-20161010010010488a8f7f].
+2016-11-01 12:38:15,815, 17079, INFO, controller.py:device_first_setup:689, Get user info by name[dealer].
+2016-11-01 12:38:15,939, 17079, INFO, controller.py:device_first_setup:693, Update user medias by user_id[8].
+2016-11-01 12:38:16,067, 17079, INFO, controller.py:device_first_setup:702, Get actions by user_id[8].
+2016-11-01 12:38:16,188, 17079, ERROR, controller.py:device_first_setup:726, zabbix device first setup failure: not enough arguments for format string
+2016-11-01 12:39:22,466, 17145, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 12:39:22,599, 17145, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 12:39:22,961, 17145, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 12:39:22,964, 17145, INFO, controller.py:device_first_setup:677, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 12:39:23,098, 17145, ERROR, controller.py:device_first_setup:681, zabbix device first setup failure: host[DID-20161010010010488a8f7f] already existing.
+2016-11-01 12:39:43,852, 17172, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 12:39:44,003, 17172, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 12:39:44,374, 17172, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 12:39:44,379, 17172, INFO, controller.py:device_first_setup:677, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 12:39:44,511, 17172, INFO, controller.py:device_first_setup:684, Create host[DID-20161010010010488a8f7f].
+2016-11-01 12:39:44,949, 17172, INFO, controller.py:device_first_setup:689, Get user info by name[dealer].
+2016-11-01 12:39:45,073, 17172, INFO, controller.py:device_first_setup:693, Update user medias by user_id[8].
+2016-11-01 12:39:45,201, 17172, INFO, controller.py:device_first_setup:702, Get actions by user_id[8].
+2016-11-01 12:40:52,957, 17172, ERROR, controller.py:device_first_setup:726, zabbix device first setup failure: not enough arguments for format string
+2016-11-01 12:42:05,250, 17356, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 12:42:05,377, 17356, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 12:42:05,760, 17356, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 12:42:05,764, 17356, INFO, controller.py:device_first_setup:677, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 12:42:05,892, 17356, INFO, controller.py:device_first_setup:684, Create host[DID-20161010010010488a8f7f].
+2016-11-01 12:42:06,256, 17356, INFO, controller.py:device_first_setup:689, Get user info by name[dealer].
+2016-11-01 12:42:06,371, 17356, INFO, controller.py:device_first_setup:693, Update user medias by user_id[8].
+2016-11-01 12:42:06,494, 17356, INFO, controller.py:device_first_setup:702, Get actions by user_id[8].
+2016-11-01 12:42:09,383, 17356, ERROR, controller.py:device_first_setup:705, zabbix device first setup failure: not enough arguments for format string
+2016-11-01 12:43:35,894, 17451, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 12:43:36,023, 17451, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 12:43:36,384, 17451, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 12:43:36,387, 17451, INFO, controller.py:device_first_setup:677, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 12:43:36,500, 17451, INFO, controller.py:device_first_setup:684, Create host[DID-20161010010010488a8f7f].
+2016-11-01 12:43:37,035, 17451, INFO, controller.py:device_first_setup:689, Get user info by name[dealer].
+2016-11-01 12:43:37,149, 17451, INFO, controller.py:device_first_setup:693, Update user medias by user_id[8].
+2016-11-01 12:43:37,283, 17451, INFO, controller.py:device_first_setup:702, Get actions by user_id[8].
+2016-11-01 12:43:46,326, 17451, INFO, controller.py:device_first_setup:708, Create action by monitoring item[tds], username[dealer].
+2016-11-01 12:43:51,850, 17451, INFO, controller.py:device_first_setup:707, Create action by monitoring item[running status], username[dealer].
+2016-11-01 12:43:51,994, 17451, INFO, controller.py:device_first_setup:707, Create action by monitoring item[water purified value], username[dealer].
+2016-11-01 12:43:52,153, 17451, INFO, controller.py:device_first_setup:707, Create action by monitoring item[filter1 used], username[dealer].
+2016-11-01 12:43:52,295, 17451, INFO, controller.py:device_first_setup:707, Create action by monitoring item[filter2 used], username[dealer].
+2016-11-01 12:43:52,445, 17451, INFO, controller.py:device_first_setup:707, Create action by monitoring item[filter3 used], username[dealer].
+2016-11-01 12:43:52,601, 17451, INFO, controller.py:device_first_setup:707, Create action by monitoring item[filter4 used], username[dealer].
+2016-11-01 12:43:52,751, 17451, INFO, controller.py:device_first_setup:707, Create action by monitoring item[filter5 used], username[dealer].
+2016-11-01 12:43:52,897, 17451, INFO, controller.py:device_first_setup:707, Create action by monitoring item[cold water temperature], username[dealer].
+2016-11-01 12:43:53,056, 17451, INFO, controller.py:device_first_setup:707, Create action by monitoring item[hot water temperature], username[dealer].
+2016-11-01 15:05:07,118, 27052, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 15:05:07,275, 27052, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 15:05:07,643, 27052, INFO, controller.py:__init__:646, Tahoe device controller initialization success
+2016-11-01 15:05:07,647, 27052, INFO, controller.py:device_first_setup:677, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 15:05:07,767, 27052, ERROR, controller.py:device_first_setup:681, zabbix device first setup failure: host[DID-20161010010010488a8f7f] already existing.
+2016-11-01 18:44:50,206, 12642, DEBUG, controller.py:get_zabbix_controller:26, Get zabbix controller
+2016-11-01 18:44:50,418, 12642, DEBUG, controller.py:get_zabbix_controller:36, Zabbix controller successfully get
+2016-11-01 18:44:50,770, 12642, INFO, controller.py:__init__:765, Tahoe device controller initialization success
+2016-11-01 18:44:50,773, 12642, INFO, controller.py:remove_device_host:874, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 18:44:50,903, 12642, INFO, controller.py:remove_device_host:882, Get actions by host_id[10121].
+2016-11-01 18:44:51,075, 12642, ERROR, controller.py:remove_device_host:905, zabbix device first setup failure: global name 'remove_action_conditions' is not defined
+2016-11-01 18:45:31,258, 12720, DEBUG, controller.py:get_zabbix_controller:27, Get zabbix controller
+2016-11-01 18:45:31,396, 12720, DEBUG, controller.py:get_zabbix_controller:37, Zabbix controller successfully get
+2016-11-01 18:45:31,785, 12720, INFO, controller.py:__init__:766, Tahoe device controller initialization success
+2016-11-01 18:45:31,789, 12720, INFO, controller.py:remove_device_host:875, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 18:45:31,915, 12720, INFO, controller.py:remove_device_host:883, Get actions by host_id[10121].
+2016-11-01 18:45:32,111, 12720, ERROR, controller.py:remove_device_host:906, zabbix device first setup failure: global name 'condition' is not defined
+2016-11-01 18:49:43,898, 13127, DEBUG, controller.py:get_zabbix_controller:27, Get zabbix controller
+2016-11-01 18:49:44,038, 13127, DEBUG, controller.py:get_zabbix_controller:37, Zabbix controller successfully get
+2016-11-01 18:49:44,401, 13127, INFO, controller.py:__init__:766, Tahoe device controller initialization success
+2016-11-01 18:49:44,405, 13127, INFO, controller.py:remove_device_host:875, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 18:49:44,529, 13127, INFO, controller.py:remove_device_host:883, Get actions by host_id[10121].
+2016-11-01 18:49:44,695, 13127, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur tds exception action] by action_id[25].
+2016-11-01 18:49:44,832, 13127, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur running status exception action] by action_id[26].
+2016-11-01 18:49:44,962, 13127, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur water purified value exception action] by action_id[27].
+2016-11-01 18:49:45,102, 13127, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter1 used exception action] by action_id[28].
+2016-11-01 18:49:45,226, 13127, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter2 used exception action] by action_id[29].
+2016-11-01 18:49:45,360, 13127, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter3 used exception action] by action_id[30].
+2016-11-01 18:49:45,487, 13127, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter4 used exception action] by action_id[31].
+2016-11-01 18:49:45,629, 13127, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter5 used exception action] by action_id[32].
+2016-11-01 18:49:45,755, 13127, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur cold water temperature exception action] by action_id[33].
+2016-11-01 18:49:45,876, 13127, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur hot water temperature exception action] by action_id[34].
+2016-11-01 18:49:46,012, 13127, INFO, controller.py:remove_device_host:901, Remove host by host_id[10121].
+2016-11-01 18:50:35,144, 13241, DEBUG, controller.py:get_zabbix_controller:27, Get zabbix controller
+2016-11-01 18:50:35,286, 13241, DEBUG, controller.py:get_zabbix_controller:37, Zabbix controller successfully get
+2016-11-01 18:50:35,671, 13241, INFO, controller.py:__init__:766, Tahoe device controller initialization success
+2016-11-01 18:50:35,675, 13241, INFO, controller.py:device_first_setup:798, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 18:50:35,794, 13241, INFO, controller.py:device_first_setup:805, Create host[DID-20161010010010488a8f7f].
+2016-11-01 18:50:36,192, 13241, INFO, controller.py:device_first_setup:810, Get user info by name[dealer].
+2016-11-01 18:50:36,314, 13241, INFO, controller.py:device_first_setup:814, Update user medias by user_id[8].
+2016-11-01 18:50:36,443, 13241, INFO, controller.py:device_first_setup:823, Get actions by user_id[8].
+2016-11-01 18:50:36,570, 13241, INFO, controller.py:device_first_setup:827, Create action by monitoring item[tds], username[dealer].
+2016-11-01 18:50:36,719, 13241, INFO, controller.py:device_first_setup:827, Create action by monitoring item[running status], username[dealer].
+2016-11-01 18:50:36,872, 13241, INFO, controller.py:device_first_setup:827, Create action by monitoring item[water purified value], username[dealer].
+2016-11-01 18:50:37,036, 13241, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter1 used], username[dealer].
+2016-11-01 18:50:37,175, 13241, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter2 used], username[dealer].
+2016-11-01 18:50:37,335, 13241, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter3 used], username[dealer].
+2016-11-01 18:50:37,488, 13241, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter4 used], username[dealer].
+2016-11-01 18:50:37,640, 13241, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter5 used], username[dealer].
+2016-11-01 18:50:37,779, 13241, INFO, controller.py:device_first_setup:827, Create action by monitoring item[cold water temperature], username[dealer].
+2016-11-01 18:50:37,920, 13241, INFO, controller.py:device_first_setup:827, Create action by monitoring item[hot water temperature], username[dealer].
+2016-11-01 20:45:51,903, 24248, DEBUG, controller.py:get_zabbix_controller:27, Get zabbix controller
+2016-11-01 20:45:52,062, 24248, DEBUG, controller.py:get_zabbix_controller:37, Zabbix controller successfully get
+2016-11-01 20:45:52,426, 24248, INFO, controller.py:__init__:766, Tahoe device controller initialization success
+2016-11-01 20:45:52,429, 24248, INFO, controller.py:remove_device_host:875, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 20:45:52,558, 24248, INFO, controller.py:remove_device_host:883, Get actions by host_id[10122].
+2016-11-01 20:45:52,689, 24248, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur tds exception action] by action_id[35].
+2016-11-01 20:45:52,822, 24248, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur running status exception action] by action_id[36].
+2016-11-01 20:45:52,980, 24248, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur water purified value exception action] by action_id[37].
+2016-11-01 20:45:53,115, 24248, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter1 used exception action] by action_id[38].
+2016-11-01 20:45:53,248, 24248, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter2 used exception action] by action_id[39].
+2016-11-01 20:45:53,384, 24248, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter3 used exception action] by action_id[40].
+2016-11-01 20:45:53,516, 24248, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter4 used exception action] by action_id[41].
+2016-11-01 20:45:53,644, 24248, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter5 used exception action] by action_id[42].
+2016-11-01 20:45:53,781, 24248, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur cold water temperature exception action] by action_id[43].
+2016-11-01 20:45:53,896, 24248, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur hot water temperature exception action] by action_id[44].
+2016-11-01 20:45:54,045, 24248, INFO, controller.py:remove_device_host:901, Remove host by host_id[10122].
+2016-11-01 20:46:44,776, 24343, DEBUG, controller.py:get_zabbix_controller:27, Get zabbix controller
+2016-11-01 20:46:44,911, 24343, DEBUG, controller.py:get_zabbix_controller:37, Zabbix controller successfully get
+2016-11-01 20:46:45,287, 24343, INFO, controller.py:__init__:766, Tahoe device controller initialization success
+2016-11-01 20:46:45,291, 24343, INFO, controller.py:device_first_setup:798, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 20:46:45,402, 24343, INFO, controller.py:device_first_setup:805, Create host[DID-20161010010010488a8f7f].
+2016-11-01 20:46:45,757, 24343, INFO, controller.py:device_first_setup:810, Get user info by name[dealer].
+2016-11-01 20:46:45,874, 24343, INFO, controller.py:device_first_setup:814, Update user medias by user_id[8].
+2016-11-01 20:46:46,019, 24343, INFO, controller.py:device_first_setup:823, Get actions by user_id[8].
+2016-11-01 20:46:46,148, 24343, INFO, controller.py:device_first_setup:827, Create action by monitoring item[tds], username[dealer].
+2016-11-01 20:46:46,284, 24343, INFO, controller.py:device_first_setup:827, Create action by monitoring item[running status], username[dealer].
+2016-11-01 20:46:46,455, 24343, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter1 used], username[dealer].
+2016-11-01 20:46:46,612, 24343, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter2 used], username[dealer].
+2016-11-01 20:46:46,764, 24343, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter3 used], username[dealer].
+2016-11-01 20:46:46,905, 24343, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter4 used], username[dealer].
+2016-11-01 20:46:47,051, 24343, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter5 used], username[dealer].
+2016-11-01 20:46:47,198, 24343, INFO, controller.py:device_first_setup:827, Create action by monitoring item[cold water temperature], username[dealer].
+2016-11-01 20:46:47,345, 24343, INFO, controller.py:device_first_setup:827, Create action by monitoring item[hot water temperature], username[dealer].
+2016-11-01 20:52:33,793, 24892, DEBUG, controller.py:get_zabbix_controller:27, Get zabbix controller
+2016-11-01 20:52:33,933, 24892, DEBUG, controller.py:get_zabbix_controller:37, Zabbix controller successfully get
+2016-11-01 20:52:34,294, 24892, INFO, controller.py:__init__:766, Tahoe device controller initialization success
+2016-11-01 20:52:34,297, 24892, INFO, controller.py:remove_device_host:875, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 20:52:34,408, 24892, INFO, controller.py:remove_device_host:883, Get actions by host_id[10123].
+2016-11-01 20:52:34,525, 24892, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur tds exception action] by action_id[45].
+2016-11-01 20:52:34,649, 24892, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur running status exception action] by action_id[46].
+2016-11-01 20:52:34,772, 24892, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter1 used exception action] by action_id[47].
+2016-11-01 20:52:34,920, 24892, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter2 used exception action] by action_id[48].
+2016-11-01 20:52:35,061, 24892, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter3 used exception action] by action_id[49].
+2016-11-01 20:52:35,200, 24892, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter4 used exception action] by action_id[50].
+2016-11-01 20:52:35,333, 24892, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter5 used exception action] by action_id[51].
+2016-11-01 20:52:35,456, 24892, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur cold water temperature exception action] by action_id[52].
+2016-11-01 20:52:35,585, 24892, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur hot water temperature exception action] by action_id[53].
+2016-11-01 20:52:35,702, 24892, INFO, controller.py:remove_device_host:901, Remove host by host_id[10123].
+2016-11-01 20:53:04,155, 24937, DEBUG, controller.py:get_zabbix_controller:27, Get zabbix controller
+2016-11-01 20:53:04,288, 24937, DEBUG, controller.py:get_zabbix_controller:37, Zabbix controller successfully get
+2016-11-01 20:53:04,642, 24937, INFO, controller.py:__init__:766, Tahoe device controller initialization success
+2016-11-01 20:53:04,645, 24937, INFO, controller.py:device_first_setup:798, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 20:53:04,762, 24937, INFO, controller.py:device_first_setup:805, Create host[DID-20161010010010488a8f7f].
+2016-11-01 20:53:05,164, 24937, INFO, controller.py:device_first_setup:810, Get user info by name[dealer].
+2016-11-01 20:53:05,291, 24937, INFO, controller.py:device_first_setup:814, Update user medias by user_id[8].
+2016-11-01 20:53:05,408, 24937, INFO, controller.py:device_first_setup:823, Get actions by user_id[8].
+2016-11-01 20:53:05,536, 24937, INFO, controller.py:device_first_setup:827, Create action by monitoring item[tds], username[dealer].
+2016-11-01 20:53:05,679, 24937, INFO, controller.py:device_first_setup:827, Create action by monitoring item[running status], username[dealer].
+2016-11-01 20:53:05,855, 24937, INFO, controller.py:device_first_setup:827, Create action by monitoring item[water purified valuefilter1 used], username[dealer].
+2016-11-01 20:53:06,003, 24937, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter2 used], username[dealer].
+2016-11-01 20:53:06,153, 24937, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter3 used], username[dealer].
+2016-11-01 20:53:06,300, 24937, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter4 used], username[dealer].
+2016-11-01 20:53:06,450, 24937, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter5 used], username[dealer].
+2016-11-01 20:53:06,599, 24937, INFO, controller.py:device_first_setup:827, Create action by monitoring item[cold water temperature], username[dealer].
+2016-11-01 20:53:06,749, 24937, INFO, controller.py:device_first_setup:827, Create action by monitoring item[hot water temperature], username[dealer].
+2016-11-01 20:54:33,378, 25077, DEBUG, controller.py:get_zabbix_controller:27, Get zabbix controller
+2016-11-01 20:54:33,497, 25077, DEBUG, controller.py:get_zabbix_controller:37, Zabbix controller successfully get
+2016-11-01 20:54:33,859, 25077, INFO, controller.py:__init__:766, Tahoe device controller initialization success
+2016-11-01 20:54:33,863, 25077, INFO, controller.py:remove_device_host:875, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 20:54:33,995, 25077, INFO, controller.py:remove_device_host:883, Get actions by host_id[10124].
+2016-11-01 20:54:34,112, 25077, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur tds exception action] by action_id[54].
+2016-11-01 20:54:34,241, 25077, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur running status exception action] by action_id[55].
+2016-11-01 20:54:34,371, 25077, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur water purified valuefilter1 used exception action] by action_id[56].
+2016-11-01 20:54:34,501, 25077, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter2 used exception action] by action_id[57].
+2016-11-01 20:54:34,626, 25077, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter3 used exception action] by action_id[58].
+2016-11-01 20:54:34,767, 25077, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter4 used exception action] by action_id[59].
+2016-11-01 20:54:34,906, 25077, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur filter5 used exception action] by action_id[60].
+2016-11-01 20:54:35,033, 25077, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur cold water temperature exception action] by action_id[61].
+2016-11-01 20:54:35,160, 25077, INFO, controller.py:remove_device_host:894, Remove action[dealer`s device occur hot water temperature exception action] by action_id[62].
+2016-11-01 20:54:35,284, 25077, INFO, controller.py:remove_device_host:901, Remove host by host_id[10124].
+2016-11-01 20:54:52,707, 25103, DEBUG, controller.py:get_zabbix_controller:27, Get zabbix controller
+2016-11-01 20:54:52,829, 25103, DEBUG, controller.py:get_zabbix_controller:37, Zabbix controller successfully get
+2016-11-01 20:54:53,188, 25103, INFO, controller.py:__init__:766, Tahoe device controller initialization success
+2016-11-01 20:54:53,189, 25103, INFO, controller.py:device_first_setup:798, Get host by logical_address[DID-20161010010010488a8f7f].
+2016-11-01 20:54:53,320, 25103, INFO, controller.py:device_first_setup:805, Create host[DID-20161010010010488a8f7f].
+2016-11-01 20:54:53,625, 25103, INFO, controller.py:device_first_setup:810, Get user info by name[dealer].
+2016-11-01 20:54:53,743, 25103, INFO, controller.py:device_first_setup:814, Update user medias by user_id[8].
+2016-11-01 20:54:53,873, 25103, INFO, controller.py:device_first_setup:823, Get actions by user_id[8].
+2016-11-01 20:54:53,999, 25103, INFO, controller.py:device_first_setup:827, Create action by monitoring item[tds], username[dealer].
+2016-11-01 20:54:54,161, 25103, INFO, controller.py:device_first_setup:827, Create action by monitoring item[running status], username[dealer].
+2016-11-01 20:54:54,333, 25103, INFO, controller.py:device_first_setup:827, Create action by monitoring item[water purified value], username[dealer].
+2016-11-01 20:54:54,479, 25103, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter1 used], username[dealer].
+2016-11-01 20:54:54,619, 25103, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter2 used], username[dealer].
+2016-11-01 20:54:54,761, 25103, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter3 used], username[dealer].
+2016-11-01 20:54:54,908, 25103, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter4 used], username[dealer].
+2016-11-01 20:54:55,071, 25103, INFO, controller.py:device_first_setup:827, Create action by monitoring item[filter5 used], username[dealer].
+2016-11-01 20:54:55,222, 25103, INFO, controller.py:device_first_setup:827, Create action by monitoring item[cold water temperature], username[dealer].
+2016-11-01 20:54:55,387, 25103, INFO, controller.py:device_first_setup:827, Create action by monitoring item[hot water temperature], username[dealer].
