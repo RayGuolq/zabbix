@@ -49,7 +49,7 @@ class ZabbixController:
     def get_auth(self):
         """
         Get auth:
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "user.login","params": {"user": "Admin","password": "zabbix"},"id": 1,"auth": null}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php;
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "user.login","params": {"user": "Admin","password": "zabbix"},"id": 1,"auth": null}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php;
         Return:
           {"jsonrpc":"2.0","result":"8725a8b9977280d879b2bf7449160064","id":1}
         """
@@ -85,7 +85,7 @@ class ZabbixController:
     def get_template_id(self, template_name):
         """
         Get template id by template name:
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "template.get","params": {"output": ["templateid"],"filter": {"host": ["Tahoe device template"]}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php;
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "template.get","params": {"output": ["templateid"],"filter": {"host": ["Tahoe device template"]}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php;
         Return:
           {"jsonrpc":"2.0","result":[{"templateid":"10105"}],"id":1}
 
@@ -126,7 +126,7 @@ class ZabbixController:
     def get_hostgroup_id(self, hostgroup_name):
         """
         Get host group id by host group name:
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "hostgroup.get","params": {"output": "extend","filter": {"name": ["tahoe devices"]}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php;
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "hostgroup.get","params": {"output": "extend","filter": {"name": ["tahoe devices"]}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php;
         Return:
           {"jsonrpc":"2.0","result":[{"groupid":"8","name":"tahoe devices","internal":"0","flags":"0"}],"id":1}
 
@@ -167,7 +167,7 @@ class ZabbixController:
     def get_usergroup_id(self, usergroup_name):
         """
         Get host group id by user group name:
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "usergroup.get","params": {"output": "extend", "filter":{"name": ["tahoe users"]}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php;
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "usergroup.get","params": {"output": "extend", "filter":{"name": ["tahoe users"]}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php;
         Return:
           {"jsonrpc":"2.0","result":[{"usrgrpid":"13","name":"tahoe users","gui_access":"0","users_status":"0","debug_mode":"0"}],"id":1}
 
@@ -208,7 +208,7 @@ class ZabbixController:
     def get_userinfo_by_name(self, username):
         """
         Get user info by username:
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "user.get","params": {"output": "extend","selectMedias": "extend", "filter": {"alias": ["guoleiqiang"]}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php;
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "user.get","params": {"output": "extend","selectMedias": "extend", "filter": {"alias": ["guoleiqiang"]}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php;
         Return:
           {"jsonrpc":"2.0","result":[{"userid":"3","alias":"guoleiqiang","name":"New","surname":"User","url":"","autologin":"1","autologout":"0", "lang":"en_GB","refresh":"30","type":"1","theme":"default","attempt_failed":"0","attempt_ip":"","attempt_clock":"0","rows_per_page":"50", "medias":[{"mediaid":"1","userid":"3","mediatypeid":"1","sendto":"guoleiqiang@iwaterdata.com","active":"0","severity":"63","period":"1-7,00:00-24:00"}]}],"id":1}
 
@@ -257,7 +257,7 @@ class ZabbixController:
     def create_user(self, username, user_group_id, smss=[], emails=[]):
         """
         Create user:
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "user.create","params": [{"alias": "John","passwd": "John","usrgrps": [{"usrgrpid": "13"}],"user_medias": [{"mediatypeid": "1","sendto": "John@company.com","active": 0,"severity": 63,"period": "1-7,00:00-24:00"}]}],"auth": "8725a8b9977280d879b2bf7449160064","id":1}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php; 
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "user.create","params": [{"alias": "John","passwd": "John","usrgrps": [{"usrgrpid": "13"}],"user_medias": [{"mediatypeid": "1","sendto": "John@company.com","active": 0,"severity": 63,"period": "1-7,00:00-24:00"}]}],"auth": "8725a8b9977280d879b2bf7449160064","id":1}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php; 
         Return:
           {"jsonrpc":"2.0","result":{"userids":["5"]},"id":1}
 
@@ -305,7 +305,7 @@ class ZabbixController:
     def update_user_medias(self, user_id, smss=[], emails=[]):
         """
         Update user medias:
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "user.updatemedia","params": {"users": [{"userid": "4"}],"medias": [{"mediatypeid": "1","sendto": "support@company.com","active": 0,"severity": 63,"period": "1-7,00:00-24:00"}]},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php;
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "user.updatemedia","params": {"users": [{"userid": "4"}],"medias": [{"mediatypeid": "1","sendto": "support@company.com","active": 0,"severity": 63,"period": "1-7,00:00-24:00"}]},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php;
         Return:
           {"jsonrpc":"2.0","result":{"userids":[4]},"id":1}
 
@@ -348,7 +348,7 @@ class ZabbixController:
     def create_host(self, host_name, host_group_id, host_template_id):
         """
         Create host:
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "host.create","params": [{"host": "tahoe device4","interfaces": [{"type": 1,"main": 1,"useip": 1,"ip": "127.0.0.1","dns": "","port": "10050"}],"groups": [{"groupid": "8"}],"templates": [{"templateid": "10105"}],"inventory_mode": 0,"inventory": {"macaddress_a": "ab:3c:6d:5c"}}],"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php;
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "host.create","params": [{"host": "tahoe device4","interfaces": [{"type": 1,"main": 1,"useip": 1,"ip": "127.0.0.1","dns": "","port": "10050"}],"groups": [{"groupid": "8"}],"templates": [{"templateid": "10105"}],"inventory_mode": 0,"inventory": {"macaddress_a": "ab:3c:6d:5c"}}],"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php;
         Return:
           {"jsonrpc":"2.0","result":{"hostids":["10112"]},"id":1}
 
@@ -435,7 +435,7 @@ class ZabbixController:
     def get_hosts(self, host_names):
         """
         Get hosts by host names
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "host.get","params": {"output": "extend", "filter": {"host": ["tahoe device4"]}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php;
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "host.get","params": {"output": "extend", "filter": {"host": ["tahoe device4"]}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php;
         Return:
           {"jsonrpc":"2.0","result":[{"hostid":"10112","proxy_hostid":"0","host":"tahoe device4", "status":"0","disable_until":"0","error":"","available":"0","errors_from":"0","lastaccess":"0","ipmi_authtype":"0","ipmi_privilege":"2","ipmi_username":"","ipmi_password":"","ipmi_disable_until":"0","ipmi_available":"0","snmp_disable_until":"0","snmp_available":"0", "maintenanceid":"0","maintenance_status":"0","maintenance_type":"0","maintenance_from":"0","ipmi_errors_from":"0", "snmp_errors_from":"0","ipmi_error":"","snmp_error":"","jmx_disable_until":"0","jmx_available":"0","jmx_errors_from":"0","jmx_error":"", "name":"tahoe device4","flags":"0","templateid":"0","description":"","tls_connect":"1","tls_accept":"1","tls_issuer":"", "tls_subject":"", "tls_psk_identity":"","tls_psk":""}],"id":1}
 
@@ -571,7 +571,7 @@ class ZabbixController:
     def get_actions_by_userid(self, user_id):
         """
         Get actions by user id:
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "action.get","params": {"output": "extend","selectOperations": "extend","selectRecoveryOperations": "extend","selectFilter": "extend","userids": ["3"],"filter": {"eventsource": 0}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php;
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "action.get","params": {"output": "extend","selectOperations": "extend","selectRecoveryOperations": "extend","selectFilter": "extend","userids": ["3"],"filter": {"eventsource": 0}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php;
         Return:
           {"jsonrpc":"2.0","result":[{"actionid":"13","name":"guoleiqiang`s tahoe device tds too high","eventsource":"0","status":"0","esc_period":"120","def_shortdata":"{TRIGGER.NAME}: {TRIGGER.STATUS}","def_longdata":"{TRIGGER.NAME}: {TRIGGER.STATUS}\r\nLast value: {ITEM.LASTVALUE}\r\n\r\n{TRIGGER.URL}\r\n\r\nOriginal event ID: {EVENT.ID}","r_shortdata":"","r_longdata":"","maintenance_mode":"1","filter":{"evaltype":"3","formula":"A and (B or C)","conditions":[{"conditiontype":"3","operator":"2","value":"tds","value2":"","formulaid":"A"},{"conditiontype":"3","operator":"2","value":"tahoe device3","value2":"","formulaid":"B"},{"conditiontype":"3","operator":"2","value":"tahoe device5","value2":"","formulaid":"C"}],"eval_formula":"A and (B or C)"},"operations":[{"operationid":"23","actionid":"13","operationtype":"0","esc_period":"0","esc_step_from":"1","esc_step_to":"1","evaltype":"0","recovery":"0","opconditions":[],"opmessage":{"operationid":"23","default_msg":"0","subject":"{TRIGGER.NAME}: {TRIGGER.STATUS}","message":"\u3010\u8d1e\u6cc9\u3011\u95ee\u9898\uff1a{TRIGGER.NAME}\uff0c\u5f53\u524d\u503c\uff1a {ITEM.LASTVALUE}\uff0c\u4e8b\u4ef6\u7f16\u53f7\uff1a{EVENT.ID}\uff0c\u8bf7\u77e5\u6089\uff0c\u8c22\u8c22","mediatypeid":"4"},"opmessage_grp":[],"opmessage_usr":[{"operationid":"23","userid":"3"}]}],"recoveryOperations":[]}],"id":1}
 
@@ -616,7 +616,7 @@ class ZabbixController:
     def get_actions_by_hostid(self, host_id):
         """
         Get actions by host id:
-          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "action.get","params": {"output": "extend","selectOperations": "extend","selectRecoveryOperations": "extend","selectFilter": "extend","hostids": ["10113"],"filter": {"eventsource": 0}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://121.43.176.60:8000/zabbix/api_jsonrpc.php;
+          curl -v -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method": "action.get","params": {"output": "extend","selectOperations": "extend","selectRecoveryOperations": "extend","selectFilter": "extend","hostids": ["10113"],"filter": {"eventsource": 0}},"auth": "8725a8b9977280d879b2bf7449160064","id": 1}' http://192.10.0.60:8000/zabbix/api_jsonrpc.php;
         Return:
           {"jsonrpc":"2.0","result":[{"actionid":"13","name":"guoleiqiang`s tahoe device tds too high","eventsource":"0","status":"0","esc_period":"120","def_shortdata":"{TRIGGER.NAME}: {TRIGGER.STATUS}","def_longdata":"{TRIGGER.NAME}: {TRIGGER.STATUS}\r\nLast value: {ITEM.LASTVALUE}\r\n\r\n{TRIGGER.URL}\r\n\r\nOriginal event ID: {EVENT.ID}","r_shortdata":"","r_longdata":"","maintenance_mode":"1","filter":{"evaltype":"3","formula":"A and (B or C)","conditions":[{"conditiontype":"3","operator":"2","value":"tds","value2":"","formulaid":"A"},{"conditiontype":"3","operator":"2","value":"tahoe device3","value2":"","formulaid":"B"},{"conditiontype":"3","operator":"2","value":"tahoe device5","value2":"","formulaid":"C"}],"eval_formula":"A and (B or C)"},"operations":[{"operationid":"23","actionid":"13","operationtype":"0","esc_period":"0","esc_step_from":"1","esc_step_to":"1","evaltype":"0","recovery":"0","opconditions":[],"opmessage":{"operationid":"23","default_msg":"0","subject":"{TRIGGER.NAME}: {TRIGGER.STATUS}","message":"\u3010\u8d1e\u6cc9\u3011\u95ee\u9898\uff1a{TRIGGER.NAME}\uff0c\u5f53\u524d\u503c\uff1a {ITEM.LASTVALUE}\uff0c\u4e8b\u4ef6\u7f16\u53f7\uff1a{EVENT.ID}\uff0c\u8bf7\u77e5\u6089\uff0c\u8c22\u8c22","mediatypeid":"4"},"opmessage_grp":[],"opmessage_usr":[{"operationid":"23","userid":"3"}]}],"recoveryOperations":[]}],"id":1}
 
